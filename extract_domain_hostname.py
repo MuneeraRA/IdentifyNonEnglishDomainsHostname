@@ -16,7 +16,7 @@ import re
 
 
 #  TLD without stars
-PSL_PATH = "/Users/imanory/Desktop/ArabicDomainsIdentification/PSLNPHereUpdated" #ChangePath
+PSL_PATH = "/Users/imanory/Desktop/ArabicDomainsIdentification/PSLNP" #ChangePath
 PSL_list = {}
 with open(PSL_PATH) as f:  
     for line in f:
