@@ -11,8 +11,8 @@ with open(path_file) as domains_file :
         num_english_words = 0
         num_non_english_words = 0
         line = line.strip()
-        apex = support.getHostName(line)
-        words = wordninja.split(apex)
+        hostname = support.getHostName(line)
+        words = wordninja.split(hostname)
         for word in words:
             check = dictionary.check(word) 
             if (check == True):
